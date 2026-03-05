@@ -21,6 +21,15 @@ public class Main {
         Request r2 = new Request(Priority.INTERMEDIATE);
         Request r3 = new Request(Priority.CRITICAL);
 
+		// Setup
+		level1.setNextHandler(level2);
+		level2.setNextHandler(level3);
+
         // Hacer el procesar de las solicitudes
+	
+		level1.handleRequest(r1);
+		level1.handleRequest(r2);
+		level1.handleRequest(r3);
+
     }
 }
