@@ -12,5 +12,6 @@ public enum Priority {
 
     BASIC,
     INTERMEDIATE,
-    CRITICAL
+    CRITICAL,
+    URGENT
 }
