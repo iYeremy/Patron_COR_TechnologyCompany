@@ -1,6 +1,10 @@
 
 # Taller Practico – Chain of Responsibility
 
+## DIAGRAMA UML:
+<p align="center">
+  <img src="./img/UML.png" alt="diagram" width="600">
+</p>
 ## Descripcion
 
 Este taller tiene como proposito aplicar el patron de diseño Chain of Responsibility
